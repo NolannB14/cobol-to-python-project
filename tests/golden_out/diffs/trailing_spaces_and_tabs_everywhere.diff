@@ -1,0 +1,11 @@
+--- /workspaces/cobol-to-python-project/tests/golden_out/diffs/trailing_spaces_and_tabs_everywhere.cobol.norm	2025-09-05 09:59:17.788910352 +0000
++++ /workspaces/cobol-to-python-project/tests/golden_out/diffs/trailing_spaces_and_tabs_everywhere.py.norm	2025-09-05 09:59:17.789910352 +0000
+@@ -6,7 +6,7 @@
+ 4. Exit
+ --------------------------------
+ Enter your choice (1-4):
+-Invalid choice, please select 1-4.
++Current balance: 001000.00
+ --------------------------------
+ Account Management System
+ 1. View Balance

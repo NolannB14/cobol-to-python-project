@@ -1,0 +1,29 @@
+--- /workspaces/cobol-to-python-project/tests/golden_out/diffs/debit_negative_then_valid.cobol.norm	2025-09-05 09:59:17.649910360 +0000
++++ /workspaces/cobol-to-python-project/tests/golden_out/diffs/debit_negative_then_valid.py.norm	2025-09-05 09:59:17.650910360 +0000
+@@ -7,7 +7,7 @@
+ --------------------------------
+ Enter your choice (1-4):
+ Enter debit amount:
+-Amount debited. New balance: 000975.00
++Insufficient funds for this debit.
+ --------------------------------
+ Account Management System
+ 1. View Balance
+@@ -17,7 +17,7 @@
+ --------------------------------
+ Enter your choice (1-4):
+ Enter debit amount:
+-Amount debited. New balance: 000950.00
++Amount debited. New balance: 000975.00
+ --------------------------------
+ Account Management System
+ 1. View Balance
+@@ -26,7 +26,7 @@
+ 4. Exit
+ --------------------------------
+ Enter your choice (1-4):
+-Current balance: 000950.00
++Current balance: 000975.00
+ --------------------------------
+ Account Management System
+ 1. View Balance

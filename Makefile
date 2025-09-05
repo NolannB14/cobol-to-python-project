@@ -21,5 +21,7 @@ run:
 
 clean:
 	rm -rf $(VENV) htmlcov __pycache__ src/__pycache__ tests/__pycache__ result_tests .coverage
+	-find . -type f -name "*.out" -delete || true
+	-find . -type f -name "*.diff" -delete || true
 
 .PHONY: venv run install test coverage clean

@@ -1,0 +1,20 @@
+--- /workspaces/cobol-to-python-project/tests/golden_out/diffs/amount_scientific_notation_credit.cobol.norm	2025-09-05 09:59:17.581910364 +0000
++++ /workspaces/cobol-to-python-project/tests/golden_out/diffs/amount_scientific_notation_credit.py.norm	2025-09-05 09:59:17.583910364 +0000
+@@ -7,7 +7,7 @@
+ --------------------------------
+ Enter your choice (1-4):
+ Enter credit amount:
+-Amount credited. New balance: 001000.00
++Amount credited. New balance: 002000.00
+ --------------------------------
+ Account Management System
+ 1. View Balance
+@@ -16,7 +16,7 @@
+ 4. Exit
+ --------------------------------
+ Enter your choice (1-4):
+-Current balance: 001000.00
++Current balance: 002000.00
+ --------------------------------
+ Account Management System
+ 1. View Balance

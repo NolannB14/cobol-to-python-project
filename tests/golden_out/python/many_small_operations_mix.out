@@ -1,0 +1,67 @@
+--------------------------------
+Account Management System
+1. View Balance
+2. Credit Account
+3. Debit Account
+4. Exit
+--------------------------------
+Enter your choice (1-4):
+Enter credit amount: 
+Amount credited. New balance: 001200.00
+--------------------------------
+Account Management System
+1. View Balance
+2. Credit Account
+3. Debit Account
+4. Exit
+--------------------------------
+Enter your choice (1-4):
+Enter debit amount: 
+Amount debited. New balance: 001149.50
+--------------------------------
+Account Management System
+1. View Balance
+2. Credit Account
+3. Debit Account
+4. Exit
+--------------------------------
+Enter your choice (1-4):
+Current balance: 001149.50
+--------------------------------
+Account Management System
+1. View Balance
+2. Credit Account
+3. Debit Account
+4. Exit
+--------------------------------
+Enter your choice (1-4):
+Enter credit amount: 
+Amount credited. New balance: 001149.75
+--------------------------------
+Account Management System
+1. View Balance
+2. Credit Account
+3. Debit Account
+4. Exit
+--------------------------------
+Enter your choice (1-4):
+Enter debit amount: 
+Amount debited. New balance: 001049.75
+--------------------------------
+Account Management System
+1. View Balance
+2. Credit Account
+3. Debit Account
+4. Exit
+--------------------------------
+Enter your choice (1-4):
+Current balance: 001049.75
+--------------------------------
+Account Management System
+1. View Balance
+2. Credit Account
+3. Debit Account
+4. Exit
+--------------------------------
+Enter your choice (1-4):
+Exiting the program. Goodbye!

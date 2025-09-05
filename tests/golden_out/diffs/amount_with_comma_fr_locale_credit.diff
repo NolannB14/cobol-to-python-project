@@ -1,0 +1,29 @@
+--- /workspaces/cobol-to-python-project/tests/golden_out/diffs/amount_with_comma_fr_locale_credit.cobol.norm	2025-09-05 09:59:17.587910364 +0000
++++ /workspaces/cobol-to-python-project/tests/golden_out/diffs/amount_with_comma_fr_locale_credit.py.norm	2025-09-05 09:59:17.591910364 +0000
+@@ -7,7 +7,7 @@
+ --------------------------------
+ Enter your choice (1-4):
+ Enter credit amount:
+-Amount credited. New balance: 002050.00
++Amount credited. New balance: 001000.00
+ --------------------------------
+ Account Management System
+ 1. View Balance
+@@ -17,7 +17,7 @@
+ --------------------------------
+ Enter your choice (1-4):
+ Enter credit amount:
+-Amount credited. New balance: 002060.50
++Amount credited. New balance: 001010.50
+ --------------------------------
+ Account Management System
+ 1. View Balance
+@@ -26,7 +26,7 @@
+ 4. Exit
+ --------------------------------
+ Enter your choice (1-4):
+-Current balance: 002060.50
++Current balance: 001010.50
+ --------------------------------
+ Account Management System
+ 1. View Balance
