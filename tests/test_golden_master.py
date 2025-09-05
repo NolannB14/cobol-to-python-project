@@ -15,9 +15,9 @@ ROOT = Path(__file__).resolve().parents[1]
 SCEN_DIR = ROOT / "tests" / "scenarios"
 GOLD_DIR = ROOT / "tests" / "golden" / "cobol"
 
-# Construction dynamique du chemin vers main.py
-MAIN = ROOT / "main.py"
-PY_CLI = os.getenv("PY_CLI", f'"{sys.executable}" "{MAIN}"')
+# Construction dynamique du chemin vers src/main.py
+MAIN = "src.main"
+PY_CLI = os.getenv("PY_CLI", f'"{sys.executable}" -m {MAIN}')
 
 # Timeout (seconds) pour éviter qu'un test reste bloqué
 TIMEOUT = float(os.getenv("GM_TIMEOUT", "10.0"))
