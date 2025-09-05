@@ -1,11 +1,11 @@
 from decimal import Decimal
-from operations import Operations
-from data_manager import DataManager
+from src.operations import Operations
+from src.data_manager import DataManager
 
 def _parse_amount(raw: str) -> Decimal:
     try:
         value = Decimal(raw.strip())
-        return value.to_integral_value()
+        return value  # On garde les centimes
     except Exception:
         return Decimal("0")
 
@@ -72,5 +72,5 @@ class MainProgram:
             self._process_selection(choice)
 
 if __name__ == "__main__":
-  program = MainProgram()
-  program.run()
+    program = MainProgram()
+    program.run()
