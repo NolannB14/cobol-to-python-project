@@ -1,6 +1,6 @@
 from decimal import Decimal
 from typing import Optional
-from data_manager import DataManager
+from src.data_manager import DataManager
 
 class Operations:
   def __init__(self, data_manager: DataManager) -> None:
