@@ -19,8 +19,6 @@ coverage:
 run:
 	$(VENV)/bin/python -m src.main
 
-	$(VENV)/bin/python -m src.main
-
 clean:
 	rm -rf $(VENV) htmlcov __pycache__ src/__pycache__ tests/__pycache__ result_tests .coverage
 
