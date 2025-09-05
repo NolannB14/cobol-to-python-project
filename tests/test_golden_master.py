@@ -13,7 +13,7 @@ import pytest  # type: ignore
 
 ROOT = Path(__file__).resolve().parents[1]
 SCEN_DIR = ROOT / "tests" / "scenarios"
-GOLD_DIR = ROOT / "tests" / "golden" / "cobol"
+GOLD_DIR = ROOT / "tests" / "golden_out" / "cobol"
 
 # Construction dynamique du chemin vers src/main.py
 MAIN = "src.main"
